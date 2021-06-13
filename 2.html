@@ -1,31 +1,48 @@
 <!doctype html>
 <html>
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBLYSK1BS6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBLYSK1BS6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-QBLYSK1BS6');
-  </script>
-  <title>Maps</title>
-  <meta charset="utf-8">
-</head>
-<body>
-  <h1><a href="index.html" title="Home">Monolith</a></h1>
-  <ol>
-    <li><a href="1.html" target="_blank" title="Info on Leuphana and LG">Blackboard</a></li>
-    <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls">Maps</a></li>
-    <li><a href="3.html" target="_blank" title="Create and Join Activities">Activities</a></li>
-    <li><a href="4.html" target="_blank" title="Create and Browse Posts">Social Section</a></li>
-  </ol>
-  <h2>Leuphana Website for Students</h2>
+      gtag('config', 'G-QBLYSK1BS6');
+    </script>
+    <title>Maps</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- themeMode -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="colors.js"></script>
+    <input id="darkMode" type="button" value="night" onclick="
+        darkMode(this);
+      ">
+    <!-- themeMode Ends-->
+    <!-- menuTab -->
+    <h1><a href="index.html" title="Home" class="active" id="active">Monolith</a></h1>
+    <ol>
+      <li><a href="1.html" target="_blank" title="Info on Leuphana and LG">Blackboard</a></li>
+      <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls" class="active">Maps</a></li>
+      <li><a href="3.html" target="_blank" title="Create and Join Activities">Activities</a></li>
+      <li><a href="4.html" target="_blank" title="Create and Browse Posts">Social Section</a></li>
+    </ol>
+    <h2>Leuphana Website for Students</h2>
 
-  <p>Welcome to <u>Maps</u><br>
-     Where do you wanna <strong>go?</strong><br>
-  <p><a href="https://www.google.com/maps/place/%EB%A4%BC%EB%84%A4%EB%B6%80%EB%A5%B4%ED%81%AC/@53.2390333,10.3525989,12z/data=!3m1!4b1!4m5!3m4!1s0x47b1ddc58c9ea45b:0xc60006ccd4f4fec3!8m2!3d53.2464214!4d10.4115179" width="500">LG</a></p>
-  <p></p>
-</body>
+    <p>Welcome to <u>Maps</u><br>
+       Where do you wanna <strong>go?</strong><br>
+    <p><a href="https://www.google.com/maps/place/%EB%A4%BC%EB%84%A4%EB%B6%80%EB%A5%B4%ED%81%AC/@53.2390333,10.3525989,12z/data=!3m1!4b1!4m5!3m4!1s0x47b1ddc58c9ea45b:0xc60006ccd4f4fec3!8m2!3d53.2464214!4d10.4115179" width="500">LG</a></p>
+    <p></p>
+
+    <!-- themeMode -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="colors.js"></script>
+    <input id="darkMode" type="button" value="night" onclick="
+        darkMode(this);
+      ">
+    <!-- themeMode Ends-->
+  </body>
 </html>
