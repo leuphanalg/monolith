@@ -15,13 +15,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- logIn or signUp -->
+    <script src=""></script>
+    <script src=""></script>
+    <input id="logIn" type="button" value="Log In" onclick="
+        logIn(this);
+      ">
+    <input id="signUp" type="button" value="Sign Up" onclick="
+        SignUp(this);
+      ">
+    <!-- logIn or signUp Ends-->
     <!-- themeMode -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="colors.js"></script>
-    <input id="darkMode" type="button" value="night" onclick="
+    <input id="darkMode" type="button" value="Night" onclick="
         darkMode(this);
       ">
-    <!-- themeMode Ends-->
+    <!-- themeMode Ends -->
 
     <!-- menuTab -->
     <h1><a href="index.html" title="Home" class="active" id="active">Monolith</a></h1>
@@ -38,12 +48,5 @@
     <p><img src="do.jpg" width="500"></p>
     <p></p>
 
-    <!-- themeMode -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="colors.js"></script>
-    <input id="darkMode" type="button" value="night" onclick="
-        darkMode(this);
-      ">
-    <!-- themeMode Ends-->
   </body>
 </html>

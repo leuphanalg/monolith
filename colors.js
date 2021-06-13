@@ -21,17 +21,17 @@ var Body = {
 }
 function darkMode(self){
   var target = document.querySelector('body');
-  if(self.value === 'night'){
+  if(self.value === 'Night'){
     Body.setBackgroundColor('black');
     Body.setColor('white');
-    self.value = 'day';
+    self.value = 'Day';
 
     Link.setColor('white');
   }
   else {
     Body.setBackgroundColor('white');
     Body.setColor('black');
-    self.value = 'night';
+    self.value = 'Night';
 
     Link.setColor('black');
   }
