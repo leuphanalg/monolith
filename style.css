@@ -1,9 +1,10 @@
+/*monolithTemplate*/
 @media(max-width: 800px){
-  div{
+  div {
     display: block;
   }
 }
-body{
+body {
     padding:15px;
   }
 a {
@@ -21,7 +22,6 @@ ol {
   border-bottom:1px solid cornflowerblue;
   padding-bottom:15px;
 }
-
 #active {
   color:cornflowerblue;
 }
@@ -31,3 +31,27 @@ ol {
 #saw {
   color:grey;
 }
+/*MasonryColumnIn3.html*/
+#columns {
+  column-count: 4;
+/*column-width: 350px;*/
+  column-gap: 15px;
+}
+#columns figure {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 1);
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+#columns figure img {
+  width: 100%;
+}
+#columns figure figcaption {
+  border-top: 1px solid rgba(0, 0, 0, 1);
+  padding: 10px;
+  margin-top: 11px;
+}
+ /*masonryColumnIn3.html* Ends/
+/*monolithTemplate* Ends/
