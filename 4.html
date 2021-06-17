@@ -11,32 +11,84 @@
       gtag('config', 'G-QBLYSK1BS6');
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics Ends-->
+    <!-- fontelloIcon -->
+    <link rel="stylesheet" href="tree_fontello/css/fontello.css">
+    <!-- fontelloIcon Ends -->
     <!-- style.css-->
-    <title>Activities</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>Monolith</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <!-- style.css Ends-->
   </head>
   <body>
-    <!-- logIn or signUp -->
-    <script src=""></script>
-    <script src=""></script>
-    <input id="logIn" type="button" value="Log In" onclick="logIn(this);">
-    <input id="signUp" type="button" value="Sign Up" onclick="SignUp(this);">
-    <!-- logIn or signUp Ends-->
-    <!-- themeMode -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="colors.js"></script>
-    <input id="darkMode" type="button" value="Night" onclick="darkMode(this);">
-    <!-- themeMode Ends -->
-    <!-- menuTab -->
-    <h1><a href="index.html" title="Home" class="active" id="active">Monolith</a></h1>
-    <ol>
-      <li><a href="1.html" target="_blank" title="Info on Leuphana and LG">Blackboard</a></li>
-      <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls">Maps</a></li>
-      <li><a href="3.html" target="_blank" title="Create and Join Activities">Activities</a></li>
-      <li><a href="4.html" target="_blank" title="Create and Browse Posts" class="active">Social Section</a></li>
-    </ol>
+    <!--<div id="grid">
+      <div>-->
+       <!-- logIn or signUp -->
+       <script src=""></script>
+       <script src=""></script>
+       <a class="btn cornflowerblue" href="#cornflowerblue">Log In</a>
+       <a class="btn powderblue" href="#powderblue">Sign Up</a>
+       <!--<input id="logIn" type="button" value="Log In" onclick="logIn(this);">
+       <input id="signUp" type="button" value="Sign Up" onclick="SignUp(this);">-->
+       <!-- logIn or signUp Ends-->
+       <!-- themeMode -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script src="colors.js"></script>
+       <!--<a class="btn gray" href="#gray" input id="darkMode" type="button" value="Night" onclick="darkMode(this);">Dark Mode</a>-->
+       <input id="darkMode" type="button" value="Night" onclick="darkMode(this);">
+       <!-- themeMode Ends -->
+       <!-- menuTab -->
+       <h1><a href="index.html" title="Home" class="active" id="monolith">Monolith</a></h1>
+       <script>
+         var menuTab = ['Monolith','Blackboard','Maps','Activities','Social Section'];
+       </script>
+       <!-- tree -->
+       <ul class="tree">
+         <li>
+           <input type="checkbox" id="root">
+           <label for="root">Menu</label>
+           <ul>
+             <p><li><a href="1.html" target="_blank" title="Info on Leuphana and LG" class="blackboard">Blackboard</a></li>
+             <li>
+               <input type="checkbox" id="node2">
+               <p><label for="node2">Maps</label>
+               <ul>
+                 <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls">Campus Map</a></li>
+                 <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls">Pub Crawls</a></li>
+               </ul>
+             </li>
+             <li>
+               <input type="checkbox" id="node3">
+               <p><label for="node3">Activities</label>
+              <ul>
+                 <li><a href="3.html" target="_blank" title="Create and Join Activities">Create Activities</a></li>
+                 <li><a href="3.html" target="_blank" title="Create and Join Activities">Join Activities</a></li>
+              </ul>
+             </li>
+             <li>
+               <input type="checkbox" id="node4">
+               <p><label for="node4">Social Section</label>
+               <ul>
+                 <li><a href="4.html" target="_blank" title="Create and Browse Posts">Create Posts</a></li>
+                 <li><a href="4.html" target="_blank" title="Create and Browse Posts">rowse Posts</a></li>
+               </ul>
+             </li>
+           </ul>
+         </li>
+       </ul>
+       <!-- tree Ends-->
+       <!-- orderedList Mode
+       <ol>
+         <li><a href="1.html" target="_blank" title="Info on Leuphana and LG">Blackboard</a></li>
+         <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls">Maps</a></li>
+         <li><a href="3.html" target="_blank" title="Create and Join Activities">Activities</a></li>
+         <li><a href="4.html" target="_blank" title="Create and Browse Posts">Social Section</a></li>
+        </ol>
+       -->
+    <!-- menuTab Ends-->
+    <!-- bodyContent -->
     <h2>Leuphana Website for Students</h2>
     <p>Welcome to <u>Social Section</u><br>
        What posts do you wanna <strong>create?</strong><br>
