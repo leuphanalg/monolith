@@ -25,6 +25,7 @@
   <body>
     <!--<div id="grid">
       <div>-->
+
        <!-- logIn or signUp -->
        <script src=""></script>
        <script src=""></script>
@@ -33,11 +34,15 @@
        <!--<input id="logIn" type="button" value="Log In" onclick="logIn(this);">
        <input id="signUp" type="button" value="Sign Up" onclick="SignUp(this);">-->
        <!-- logIn or signUp Ends-->
+       <!-- monolithLogo -->
+       <div class="thumbnail" style="background-image:url('monolith_logo.jpg')" align="left" onclick="showPopup()">
+       </div>
+       <!-- monolithLogo Ends -->
        <!-- themeMode -->
+       <a input id="darkMode" onclick="darkMode(this);" class="btn gray" href="#gray" value="Night">Night</a>
+       <!--input id="darkMode" type="button" value="Night" onclick="darkMode(this);">-->
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
        <script src="colors.js"></script>
-       <!--<a class="btn gray" href="#gray" input id="darkMode" type="button" value="Night" onclick="darkMode(this);">Dark Mode</a>-->
-       <input id="darkMode" type="button" value="Night" onclick="darkMode(this);">
        <!-- themeMode Ends -->
        <!-- menuTab -->
        <h1><a href="index.html" title="Home" class="active" id="monolith">Monolith</a></h1>
@@ -55,24 +60,24 @@
                <input type="checkbox" id="node2">
                <p><label for="node2">Maps</label>
                <ul>
-                 <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls">Campus Map</a></li>
-                 <li><a href="2.html" target="_blank" title="Campus Map and Pub Crawls">Pub Crawls</a></li>
+                 <li><a href="2.html" target="_blank" title="Campus Map">Campus Map</a></li>
+                 <li><a href="2.html" target="_blank" title="Pub Crawls">Pub Crawls</a></li>
                </ul>
              </li>
              <li>
                <input type="checkbox" id="node3">
                <p><label for="node3">Activities</label>
               <ul>
-                 <li><a href="3.html" target="_blank" title="Create and Join Activities">Create Activities</a></li>
-                 <li><a href="3.html" target="_blank" title="Create and Join Activities">Join Activities</a></li>
+                 <li><a href="3.html" target="_blank" title="Create Activities">Create Activities</a></li>
+                 <li><a href="3.html" target="_blank" title="Join Activities">Join Activities</a></li>
               </ul>
              </li>
              <li>
                <input type="checkbox" id="node4">
                <p><label for="node4">Social Section</label>
                <ul>
-                 <li><a href="4.html" target="_blank" title="Create and Browse Posts">Create Posts</a></li>
-                 <li><a href="4.html" target="_blank" title="Create and Browse Posts">rowse Posts</a></li>
+                 <li><a href="4.html" target="_blank" title="Create Posts">Create Posts</a></li>
+                 <li><a href="4.html" target="_blank" title="Browse Posts">Browse Posts</a></li>
                </ul>
              </li>
            </ul>
