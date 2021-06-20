@@ -13,6 +13,37 @@
   background-repeat:no-repeat;
   background-position:center center;
 }
+#bg{
+  position:fixed;
+  top:0;
+  left:0;
+  /* Preserve aspet ratio */
+  min-width:500px;
+  min-height:500px;
+  opacity:.2;
+  width:100vw;
+  height:100vh;
+  background:url("mouse.js") no-repeat center/cover,url("monolith2") no-repeat center/cover;
+  z-index:-1;
+}
+/*.container{
+  width:windowWidth;
+  height:windowHeight;
+  text-align:center;
+  position:relative;
+  z-index:1;
+}
+.container:after{
+  width:windowWidth;
+  height:windowHeight;
+  content:"Monolith for Leuphana";
+  background:url("monolith2.jpg");
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  opacity:0.5;
+}*/
 body{
   margin:8px;
     }
@@ -21,6 +52,9 @@ body{
 }
 #monolith{
   color:cornflowerblue;
+}
+.thumbnail{
+  border-radius:5px;
 }
 .saw{
   color:gray;
