@@ -30,8 +30,9 @@
     <!-- style.css Ends-->
   </head>
   <body>
-    <!--<div id="grid">
-    </div>-->
+       <!-- monolithLogo -->
+       <a class="thumbnail" style="background-image:url('monolith-logo.jpg')" align="left" href="monolith.html" onclick="showPopup()"></a>
+       <!-- monolithLogo Ends -->
        <!-- logIn or signUp -->
        <a class="btn cornflowerblue" href="#cornflowerblue">Log In</a>
        <script src=""></script>
@@ -40,9 +41,6 @@
        <!--<input id="logIn" type="button" value="Log In" onclick="logIn(this);">
        <input id="signUp" type="button" value="Sign Up" onclick="SignUp(this);">-->
        <!-- logIn or signUp Ends-->
-       <!-- monolithLogo -->
-       <a class="thumbnail" style="background-image:url('monolith-logo.jpg')" align="left" href="monolith.html" onclick="showPopup()"></a>
-       <!-- monolithLogo Ends -->
        <!-- themeMode -->
        <a input id="darkMode" onclick="darkMode(this);" class="btn gray" href="#gray" value="Night">Night</a>
        <!--input id="darkMode" type="button" value="Night" onclick="darkMode(this);">-->
@@ -50,13 +48,33 @@
        <script src="colors.js"></script>
        <!-- themeMode Ends -->
        <!-- menuTab -->
-       <h1><a href="monolith.html" title="Home" class="active" id="monolith">Blackboard</a></h1>
+       <h1><a href="monolith.html" title="Home" class="active" id="monolith">Monolith</a></h1>
        <h2>Leuphana Website for Students</h2>
        <script>
          var menuTab = ['Monolith','Blackboard','Maps','Activities','Social Section'];
        </script>
+       <div class="dropmenu">
+         <ul>
+           <li><a href="blackboard.html">Blackboard</a></li>
+           <li><a href="maps.html" id="current">Maps</a>
+         <ul>
+           <li><a href="#">Campus</a></li>
+           <li><a href="#">Pub Crawls</a></li>
+         </ul>
+           </li>
+           <li><a href="activities.html" id="current">Activities</a>
+         <ul>
+           <li><a href="#">Join Activities</a></li>
+           <li><a href="#">Create Activities</a></li>
+         </ul>
+           <li><a href="socialsection.html" id="current">Social Section</a>
+         <ul>
+           <li><a href="#">Browse Posts</a></li>
+           <li><a href="#">Create Posts</a></li>
+         </ul>
+      </div>
        <!-- tree -->
-       <ul class="tree">
+       <!--<ul class="tree">
          <li>
            <input type="checkbox" id="root">
            <label for="root">Menu</label>
@@ -88,7 +106,7 @@
              </li>
            </ul>
          </li>
-       </ul>
+       </ul>-->
        <!-- tree Ends-->
        <!-- orderedList Mode
        <ol>
@@ -100,9 +118,12 @@
        -->
        <!-- menuTab Ends-->
     <!-- bodyContent -->
-    <img src="search.jpg" id="bg1" alt="">
+    <p><img src="search.jpg" id="bg1" alt=""></p>
+    <div class="text" align="center">
     <p>Welcome to <u>Blackboard</u><br>
        What do you wanna <strong>search?</strong><br>
+    </p></div>
+    <p></p>
     <p><iframe width="1065" height="480"
         src="https://www.youtube.com/embed/xJrJq8pwQNE?list=TLGGKCuWRNgnDRcwNjA1MjAyMQ"
         title="YouTube video player"

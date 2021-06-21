@@ -30,8 +30,9 @@
     <!-- style.css Ends-->
   </head>
   <body>
-    <!--<div id="grid">
-    </div>-->
+       <!-- monolithLogo -->
+       <a class="thumbnail" style="background-image:url('monolith-logo.jpg')" align="left" href="monolith.html" onclick="showPopup()"></a>
+       <!-- monolithLogo Ends -->
        <!-- logIn or signUp -->
        <a class="btn cornflowerblue" href="#cornflowerblue">Log In</a>
        <script src=""></script>
@@ -40,9 +41,6 @@
        <!--<input id="logIn" type="button" value="Log In" onclick="logIn(this);">
        <input id="signUp" type="button" value="Sign Up" onclick="SignUp(this);">-->
        <!-- logIn or signUp Ends-->
-       <!-- monolithLogo -->
-       <a class="thumbnail" style="background-image:url('monolith-logo.jpg')" align="left" href="monolith.html" onclick="showPopup()"></a>
-       <!-- monolithLogo Ends -->
        <!-- themeMode -->
        <a input id="darkMode" onclick="darkMode(this);" class="btn gray" href="#gray" value="Night">Night</a>
        <!--input id="darkMode" type="button" value="Night" onclick="darkMode(this);">-->
@@ -55,8 +53,28 @@
        <script>
          var menuTab = ['Monolith','Blackboard','Maps','Activities','Social Section'];
        </script>
+       <div class="dropmenu">
+         <ul>
+           <li><a href="blackboard.html">Blackboard</a></li>
+           <li><a href="maps.html" id="current">Maps</a>
+         <ul>
+           <li><a href="#">Campus</a></li>
+           <li><a href="#">Pub Crawls</a></li>
+         </ul>
+           </li>
+           <li><a href="activities.html" id="current">Activities</a>
+         <ul>
+           <li><a href="#">Join Activities</a></li>
+           <li><a href="#">Create Activities</a></li>
+         </ul>
+           <li><a href="socialsection.html" id="current">Social Section</a>
+         <ul>
+           <li><a href="#">Browse Posts</a></li>
+           <li><a href="#">Create Posts</a></li>
+         </ul>
+      </div>
        <!-- tree -->
-       <ul class="tree">
+       <!--<ul class="tree">
          <li>
            <input type="checkbox" id="root">
            <label for="root">Menu</label>
@@ -88,7 +106,7 @@
              </li>
            </ul>
          </li>
-       </ul>
+       </ul>-->
        <!-- tree Ends-->
        <!-- orderedList Mode
        <ol>
@@ -100,11 +118,16 @@
        -->
        <!-- menuTab Ends-->
        <!-- bodyContent -->
-       <img src="monolith2.jpg" id="bg" alt="">
-       <!--<div class="container"></div>-->
+     <p><img src="monolith2.jpg" id="bg" alt=""></p>
+     <p><div class="text" align="center">
        Hello, there!<br>
-       I am learning HTML (Hyper Text Markup Language)<br>
-       This is the first step of <strong>project <u>Monolith</u></strong>
+       Welcome to Monolith for Leuphana :D<br>
+       <u>Fidget a bit around with your</u> <strong>mouse click here ↓</strong>
+     </p></div>
+       <!-- mouseInteraction -->
+       <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
+       <script src="mouse.js" id="bg0"></script>
+       <!-- mouseInteraction Ends -->
        <!-- bodyContent Ends -->
        <p><!--Start of Tawk.to Script-->
          <script type="text/javascript">
@@ -119,10 +142,6 @@
          })();
          </script>
          <!--End of Tawk.to Script--></p>
-         <!-- mouseInteraction -->
-         <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
-         <script src="mouse.js"></script>
-         <!-- mouseInteraction Ends -->
        <!--</div>-->
      </body>
    </html>

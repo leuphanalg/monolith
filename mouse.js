@@ -3,7 +3,8 @@
 //    bg = loadImage("monolith2.jpg")
 //}
 function setup() {
-    createCanvas(windowWidth,windowHeight);
+    createCanvas(displayWidth, displayHeight);
+//    cnv.style('display', 'block');
 }
 //function draw() {
 //    background(bg)
@@ -14,4 +15,8 @@ function draw(){
 }
 function mousePressed(){
   background(random(255), random(255), random(255), 30);
+}
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  centerCanvas();
 }
