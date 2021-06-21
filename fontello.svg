@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="asterisk" unicode="&#xe800;" d="M827 264q26-14 33-43t-7-55l-35-61q-15-26-44-33t-54 7l-149 85v-171q0-29-21-50t-50-22h-71q-29 0-51 22t-21 50v171l-148-85q-26-15-55-7t-43 33l-36 61q-14 26-7 55t34 43l148 86-148 86q-26 14-34 43t7 55l36 61q15 26 43 33t55-7l148-85v171q0 29 21 50t51 22h71q29 0 50-22t21-50v-171l149 85q26 15 54 7t44-33l35-61q15-26 7-55t-33-43l-148-86z" horiz-adv-x="928.6" />
+
+<glyph glyph-name="down-dir" unicode="&#xe801;" d="M540 587l-269-473-271 473 540 0z" horiz-adv-x="540" />
+
+<glyph glyph-name="right-dir" unicode="&#xe802;" d="M0 608l510-257-510-258 0 515z" horiz-adv-x="510" />
+
+<glyph glyph-name="emo-happy" unicode="&#xe803;" d="M261 800c-60 0-109-65-109-144 0-80 49-145 109-145s110 65 110 145c0 79-49 144-110 144z m477 0c-61 0-110-65-110-144 0-80 49-145 110-145 60 0 110 65 110 145 0 79-50 144-110 144z m208-599c-13 0-27-5-37-16-4-4-8-8-12-12-111-109-253-164-396-165-142-2-285 50-396 155l-3 3-12 12c-21 21-54 20-75-1-20-21-20-55 1-76 3-4 8-8 14-14l3-3c132-124 301-186 469-184 169 1 337 67 468 195 5 5 9 10 14 14 20 22 20 56-1 77-10 10-23 15-37 15z" horiz-adv-x="999" />
+
+<glyph glyph-name="link-ext" unicode="&#xf08e;" d="M786 332v-178q0-67-47-114t-114-47h-464q-67 0-114 47t-47 114v464q0 66 47 113t114 48h393q7 0 12-5t5-13v-36q0-8-5-13t-12-5h-393q-37 0-63-26t-27-63v-464q0-37 27-63t63-27h464q37 0 63 27t26 63v178q0 8 5 13t13 5h36q8 0 13-5t5-13z m214 482v-285q0-15-11-25t-25-11-25 11l-98 98-364-364q-5-6-13-6t-12 6l-64 64q-6 5-6 12t6 13l364 364-98 98q-11 11-11 25t11 25 25 11h285q15 0 25-11t11-25z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
