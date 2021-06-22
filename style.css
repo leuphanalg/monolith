@@ -21,7 +21,7 @@
   opacity:.2;
   width:100vw;
   height:100vh;
-  background:url("monolith2") no-repeat center/cover;
+  background:url("monolith2.jpg") no-repeat center/cover;
   z-index:-1;
 }
 #bg0{
@@ -107,9 +107,10 @@ body{
   color:cornflowerblue;
 }
 #text{
-  padding:5px;
-  border:5px;
-  margin:10px;
+  display:block;
+  padding:10px;
+  border:10px;
+  margin:20px;
 }
 .thumbnail{
   border-radius:5px;
@@ -154,6 +155,14 @@ body{
 .btn.gray:active{
   border-bottom:2px solid black;
 }
+.ui.button{
+  margin-right:20px;
+  font-family:"Amatic SC", cursive;
+  color:white;
+  float:right;
+  font-weight:bolder;
+  background-color:#b5bfff
+}
 a{
   color:black;
   text-decoration:none;
@@ -193,6 +202,11 @@ ol{
 #grid #article{
   padding-left:45px;
 }
+/*$(function(){
+  $(".dropmenu").click(function(){
+    $(".dropmenu").stop().slideToggle("fast");
+  });
+});*/
 .dropmenu{
 display:block;
 border:none;
@@ -240,7 +254,7 @@ display:none;
 height:auto;
 border:0px;
 position:absolute;
-width:250px;
+width:292px;
 z-index:200;
 /*top:1em;
 /*left:0;*/
@@ -284,7 +298,7 @@ clear:left;
   content:'\e803';
   font-family:fontello;
 }
-.tree, .tree ul{
+/*.tree, .tree ul{
   list-style:none;
   padding-left:30px;
 }
@@ -318,7 +332,7 @@ clear:left;
 .tree input[type="checkbox"]:checked+label:before{
   content:'\e802';
   font-family:fontello;
-}
+}*/
 /*MasonryColumnIn3.html*/
 #columns{
   column-count:4;
