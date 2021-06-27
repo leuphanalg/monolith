@@ -18,7 +18,7 @@
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.2;
+  opacity:.5;
   width:100vw;
   height:100vh;
   background:url("monolith2.jpg") no-repeat center/cover;
@@ -29,7 +29,7 @@
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.1;
+  opacity:.5;
   width:100vw; !important;
   height:100vh; !important;
   background:url("mouse.js") no-repeat center/cover;
@@ -40,7 +40,7 @@
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.2;
+  opacity:.5;
   width:100vw;
   height:100vh;
   background:url("search.jpg") no-repeat center/cover;
@@ -51,7 +51,7 @@
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.2;
+  opacity:.5;
   width:100vw;
   height:100vh;
   background:url("go.jpg") no-repeat center/cover;
@@ -62,7 +62,7 @@
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.2;
+  opacity:.5;
   width:100vw;
   height:100vh;
   background:url("do.jpg") no-repeat center/cover;
@@ -73,7 +73,7 @@
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.2;
+  opacity:.5;
   width:100vw;
   height:100vh;
   background:url("post.jpg") no-repeat center/cover;
@@ -119,14 +119,14 @@ body{
   color:gray;
 }
 .btn{
-  font-size:1.3rem;
+  font-size:1.1rem;
   color:white;
   padding:5px 10px 5px 10px;
   margin:3px;
   display:inline-block;
-  border-radius:10px;
+  border-radius:5px;
   transition:all 0.1s;
-  text-shadow:0px -2px rgba(0, 0, 0, 0.2);
+  text-shadow:0px -2px rgba(0, 0, 0, .2);
   font-family:"Amatic SC", cursive;
   float:right;
 }
@@ -140,11 +140,11 @@ body{
 .btn.cornflowerblue:active{
   border-bottom:2px solid gray;
 }
-.btn.powderblue{
-  background-color:powderblue;
+.btn.skyblue{
+  background-color:skyblue;
   border-bottom:5px solid gray;
 }
-.btn.powderblue:active{
+.btn.skyblue:active{
   border-bottom:2px solid gray;
 }
 .btn.gray{
@@ -156,17 +156,17 @@ body{
   border-bottom:2px solid black;
 }
 .ui.button{
-  font-size:1.3rem;
+  font-size:1.1rem;
   color:white;
-  padding:8px 13px 8px 13px;
+  padding:5px 10px 5px 10px;
   border:3px;
   margin:3px;
   display:inline-block;
-  border-radius:10px;
+  border-radius:5px;
   transition:all 0.1s;
   margin-right:20px;
   font-family:"Amatic SC", cursive;
-  text-shadow:0px -2px rgba(0, 0, 0, 0.2);
+  text-shadow:0px -2px rgba(0, 0, 0, .2);
   color:white;
   float:right;
   background-color:#b5bfff;
@@ -189,7 +189,7 @@ h1{
 h2{
   font-size:25px;
   font-weight:normal;
-  color:gray;
+  color:dimgray;
   text-align:center;
   margin:0;
   padding:5px;
@@ -228,12 +228,12 @@ margin:1px;
 padding:1px;
 font-family:"Amatic SC", cursive;
 font-size:20px;
-text-shadow:0px -2px rgba(0, 0, 0, 0.2);
+text-shadow:0px -2px rgba(0, 0, 0, .2);
 width:1064px;
 }
 .dropmenu ul{
 display:block;
-text-shadow:0px -2px rgba(0, 0, 0, 0.2);
+text-shadow:0px -2px rgba(0, 0, 0, .2);
 background:rgba(255, 255, 255, .3);
 height:50px;
 list-style:none;
@@ -249,7 +249,7 @@ padding:0px;
 display:block;
 background:cornflowerblue;
 color:#fff;
-text-shadow:0px -2px rgba(0, 0, 0, 0.2);
+text-shadow:0px -2px rgba(0, 0, 0, .2);
 display:block;
 line-height:50px;
 margin:0px;
@@ -260,13 +260,13 @@ text-decoration:none;
 .dropmenu li a:hover, .dropmenu ul li:hover a{
 display:block;
 background:rgba(31, 31, 31, .5);
-text-shadow:0px -2px rgba(0, 0, 0, 0.2);
+text-shadow:0px -2px rgba(0, 0, 0, .2);
 color:#FFFFFF;
 text-decoration:none;
 }
 .dropmenu li ul{
 display:block;
-background:powderblue;
+background:skyblue;
 display:none;
 height:auto;
 border:0px;
@@ -281,7 +281,7 @@ display:block;
 }
 .dropmenu li li {
 display:block;
-background:powderblue;
+background:skyblue;
 display:block;
 float:none;
 margin:0px;
@@ -296,7 +296,7 @@ background:none;
 display:block;
 height:50px;
 font-size:18px;
-text-shadow:0px -2px rgba(0, 0, 0, 0.2);
+text-shadow:0px -2px rgba(0, 0, 0, .2);
 margin:0px;
 padding:0px 0px 0px 10px;
 text-align:left;
