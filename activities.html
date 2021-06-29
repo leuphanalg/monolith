@@ -91,14 +91,14 @@
        <input id="signUp" type="button" value="Sign Up" onclick="SignUp(this);">-->
        <!-- logIn or signUp Ends-->
        <!-- themeMode -->
-       <a input id="darkMode" onclick="darkMode(this);" class="btn gray" href="#gray" value="Night">Night</a>
+       <a input id="darkMode" type="button" class="btn gray" href="#gray" value="Night" onclick="darkMode(this);">Night</a>
        <!--input id="darkMode" type="button" value="Night" onclick="darkMode(this);">-->
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
        <script src="colors.js"></script>
        <!-- themeMode Ends -->
        <!-- menuTab -->
        <h1><a href="index.html" title="Home" class="active" id="monolith">Monolith</a></h1>
-       <h2>Leuphana Website for Students</h2>
+       <h2><a href="">Activities</a></h2>
        <script>
         var menuTab=['Monolith','Blackboard','Maps','Activities','Social Section'];
        </script>
@@ -107,10 +107,10 @@
            <li><a href="blackboard.html">Blackboard</a></li>
            <li><a href="maps.html" id="current">Maps</a>
          <ul>
-           <li><a href="#">Campus</a></li>
-           <li><a href="#">Lueneburg</a></li>
-           <li><a href="#">Bike Road</a></li>
-           <li><a href="#">Pub Crawls</a></li>
+           <li><a href="#upcomingSubmenuFeature">Campus</a></li>
+           <li><a href="#upcomingSubmenuFeature">Lueneburg</a></li>
+           <li><a href="#upcomingSubmenuFeature">Bike Road</a></li>
+           <li><a href="#upcomingSubmenuFeature">Pub Crawls</a></li>
          </ul>
            </li>
            <li><a href="activities.html" id="current">Activities</a>
@@ -120,11 +120,11 @@
          </ul>
            <li><a href="socialsection.html" id="current">Social Section</a>
          <ul>
-           <li><a href="#">Agora Square</a></li>
-           <li><a href="#">Flea Market</a></li>
-           <li><a href="#">Dormitory</a></li>
+           <li><a href="#upcomingSubmenuFeature">Agora Square</a></li>
+           <li><a href="#upcomingSubmenuFeature">Flea Market</a></li>
+           <li><a href="#upcomingSubmenuFeature">Dormitory</a></li>
          </ul>
-      </div>
+       </div>
        <!-- menuTab Ends -->
        <!-- tree Practice -->
        <!--<ul class="tree">
@@ -185,8 +185,8 @@
     <p></p>
 
     <p></p>
-
-    <h4>　　(Monolith users will be able to post or browse indoor and outdoor activities once we finish working on the front-end & back-end merging phase/process)　　<h4>
+    <!-- I didn't use div{text-align: center;} here bc it's easier to see which part is unnecessary/to be deleted -->
+    <h4>　　(Monolith users will be able to post or browse indoor and outdoor activities once we finish working on the front-end and back-end merging phase)　　<h4>
 
     <p></p>
 
