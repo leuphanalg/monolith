@@ -1,8 +1,11 @@
 /*monolithTemplate*/
 @media(max-width:800px){
-  div {
+div{
     display:block;
   }
+.text{
+  display:block;
+}
 }
 .thumbnail{
   margin:0px;
@@ -12,6 +15,17 @@
   background-size:contain;
   background-repeat:no-repeat;
   background-position:center center;
+}
+#area{
+  position:relative;
+  width:100%;
+  padding-bottom:56.25%;
+}
+
+#video{
+  position:absolute;
+  width:100%;
+  height:100%;
 }
 #bg{
   position:fixed;
@@ -103,8 +117,8 @@ body{
 .active{
   color:cornflowerblue;
 }
-#monolith{
-  color:cornflowerblue;
+/*#monolith{
+  color:cornflowerblue;*/
 }
 #text{
   display:block;
@@ -158,7 +172,7 @@ body{
 .ui.button{
   font-size:1.1rem;
   color:white;
-  padding:5px 10px 5px 10px;
+  padding:5px 10px 5px 13px;
   border:3px;
   margin:3px;
   display:inline-block;
