@@ -21,7 +21,6 @@ div{
   width:100%;
   padding-bottom:56.25%;
 }
-
 #video{
   position:absolute;
   width:100%;
@@ -185,10 +184,12 @@ body{
   float:right;
   background-color:#b5bfff;
   border-bottom:5px solid gray;
+  align-items:center;
 }
 .ui.button:active{
   transform:translateY(3px);
   border-bottom:2px solid gray;
+  align-items:center;
 }
 a{
   color:black;
