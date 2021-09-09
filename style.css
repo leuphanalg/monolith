@@ -31,7 +31,7 @@ div{
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.5;
+  opacity:.2;
   width:100vw;
   height:100vh;
   background:url("monolith2.jpg") no-repeat center/cover;
@@ -42,7 +42,7 @@ div{
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.5;
+  opacity:.2;
   width:100vw; !important;
   height:100vh; !important;
   background:url("mouse.js") no-repeat center/cover;
@@ -53,7 +53,7 @@ div{
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.5;
+  opacity:.2;
   width:100vw;
   height:100vh;
   background:url("search.jpg") no-repeat center/cover;
@@ -64,7 +64,7 @@ div{
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.5;
+  opacity:.2;
   width:100vw;
   height:100vh;
   background:url("go.jpg") no-repeat center/cover;
@@ -75,7 +75,7 @@ div{
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.5;
+  opacity:.2;
   width:100vw;
   height:100vh;
   background:url("do.jpg") no-repeat center/cover;
@@ -86,7 +86,7 @@ div{
   top:0;
   left:0;
   /* Preserve aspet ratio */
-  opacity:.5;
+  opacity:.2;
   width:100vw;
   height:100vh;
   background:url("post.jpg") no-repeat center/cover;
