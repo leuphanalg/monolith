@@ -20,6 +20,15 @@
       crossorigin="anonymous"></script>
     <script src="semantic.js"></script>
     <!-- semanticUI Ends -->
+    <!-- responsiveMenu -->
+    <script>
+    $(function() {
+  $(".menu-toggle-btn").click(function() {
+    $(".gnb").stop().slideToggle("fast");
+  });
+});
+</script>
+    <!-- responsiveMenu Ends -->
     <!-- fontelloIcon -->
     <link rel="stylesheet" href="fontello.css">
     <!-- fontelloIcon Ends -->
@@ -105,6 +114,7 @@
      var menuTab=['Monolith','Blackboard','Maps','Activities','Social Section'];
     </script>
     <div class="dropmenu">
+    <ul class="gnb">
       <ul>
         <li><a href="blackboard.html">Blackboard</a></li>
         <li><a href="maps.html" id="current">Maps</a>
@@ -181,13 +191,10 @@
 
     <p>Welcome to <u>Social Section</u><br>
        What posts do you wanna <strong>create?</strong><br>
-    </p></div>
-
-    <p></p>
-
-    <p></p>
-    <!-- I didn't use div{text-align: center;} here bc it's easier to see which part is unnecessary/to be deleted -->
-    <h4>　　(We are planning to build a bulletin board up here in three different categories where people can exchange thoughts and opinions via posts and comments)　　<h4>
+    </p>
+    <p><strong>
+       >>>Sorry! This page is still under construction: I will catch up with Flask and Bootstrap for posting and browsing function<<<
+    </strong></p></div><br>
 
     <p></p>
 

@@ -20,6 +20,15 @@
       crossorigin="anonymous"></script>
     <script src="semantic.js"></script>
     <!-- semanticUI Ends -->
+    <!-- responsiveMenu -->
+    <script>
+    $(function() {
+  $(".menu-toggle-btn").click(function() {
+    $(".gnb").stop().slideToggle("fast");
+  });
+});
+</script>
+    <!-- responsiveMenu Ends -->
     <!-- fontelloIcon -->
     <link rel="stylesheet" href="fontello.css">
     <!-- fontelloIcon Ends -->
@@ -105,6 +114,7 @@
      var menuTab=['Monolith','Blackboard','Maps','Activities','Social Section'];
     </script>
     <div class="dropmenu">
+    <ul class="gnb">
       <ul>
         <li><a href="blackboard.html">Blackboard</a></li>
         <li><a href="maps.html" id="current">Maps</a>
