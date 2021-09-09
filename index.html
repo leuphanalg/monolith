@@ -21,11 +21,11 @@
     <!-- semanticUI Ends -->
     <!-- responsiveMenu -->
     <script>
-    $(function() {
-  $(".menu-toggle-btn").click(function() {
-    $(".gnb").stop().slideToggle("fast");
-  });
-});
+    $(function(){
+      $(".dropmenu").click(function(){
+        $(".dropmenu").stop().slideToggle("fast");
+      });
+    });
 </script>
     <!-- responsiveMenu Ends -->
     <!-- fontelloIcon -->
@@ -112,6 +112,7 @@
        <script>
         var menuTab=['Monolith','Blackboard','Maps','Activities','Social Section'];
        </script>
+       <nav>
        <div class="dropmenu">
        <ul class="gnb">
          <ul>
@@ -136,6 +137,7 @@
            <li><a href="#upcomingSubmenuFeature">Dormitory</a></li>
          </ul>
       </div>
+    </nav>
        <!-- menuTab Ends -->
        <!-- tree Practice -->
        <!--<ul class="tree">
