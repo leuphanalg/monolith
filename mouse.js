@@ -1,6 +1,6 @@
 //var bg;
 //function preload(){
-//    bg = loadImage("monolith2.jpg")
+//    bg = loadImage("image/monolith2.jpg")
 //}
 function setup() {
     createCanvas(displayWidth, displayHeight);
